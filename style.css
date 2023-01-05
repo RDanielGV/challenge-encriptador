@@ -107,6 +107,7 @@ body{
     font-weight: 510;
     font-size: 24px;
     display: none;
+    resize: none;
 }
 
 
@@ -120,7 +121,14 @@ body{
     border-radius: 24px;
     border: 1px solid #0A3871;
     display: none;
+    transition: 1s all;
+    cursor: pointer;
 }
+
+#copiar:hover{
+    transform: scale(1.05);
+}
+
 
 .btm-derecho{
     float: left;
@@ -154,6 +162,12 @@ body{
     background: #0A3871;
     color: white;
     border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#btm-encriptar:hover{
+    transform: scale(1.05);
 }
 
 #btm-desencriptar{
@@ -165,4 +179,10 @@ body{
     margin-left: 340px;
     border: 1px solid #0A3871;
     background: #D8DFE8;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#btm-desencriptar:hover{
+    transform: scale(1.05);
 }
